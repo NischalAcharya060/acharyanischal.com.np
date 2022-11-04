@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nischal Acharya | About" />
+    <meta
+      name="keywords"
+      content="Nischal, Nischal Acharya, Acharya, Web Developer in nepal, Portfolio, best portfolio, responsive, responsive portfolio, best portfolio in nepal."
+    />
+    <meta name="author" content="Nischal Acharya" />
+    <meta name="theme-color" content="#FFFFFF,#000000">
+    <title>About | Nischal Acharya</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="index.html" class="logo"
+        ><span style="color: crimson; font-size: 1.61rem; font-weight: 600"
+          >Nischal</span
+        >
+        Acharya</a
+      >
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li>
+          <a href="index.html"><i class="fa fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="about.html"><i class="fa fa-file-text-o"></i>About</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa fa-envelope"></i>Contact</a>
+        </li>
+        <div class="bx bx-moon" id="darkmode"></div>
+      </ul>
+    </header>
+
+    <!-- About Content -->
+    <h1 style="margin-top: 6rem; text-align: center; text-decoration: underline;">About Me</h1>
+    <div class="about-container">
+      <div class="about-img">
+          <img src="image/p7.jpg" alt="pic">
+      </div>
+      <div class="about-text">
+          <p>Hey, I’m Nischal. I’m a student living in Gauradaha,Jhapa Nepal. I am a fan of technology,<br> music, and programming. I’m also interested in web development and travel.</p>
+          <div class="information">
+              <!-- Box 1 -->
+              <div class="info-box">
+                  <i class='bx bxs-user' ></i>
+                  <span>Nischal Acharya</span>
+              </div>
+              <!-- Box 2 -->
+              <div class="info-box">
+                  <i class='bx bxs-phone' ></i>
+                  <span>+977-9806081469</span>
+              </div>
+              <!-- Box 3 -->
+              <div class="info-box">
+                  <i class='bx bxs-envelope' ></i>
+                  <span>Nischal060@gmail.com</span>
+              </div>
+          </div>
+          <a href="cv.html" class="btn">📃 See My CV</a>
+          <a href="gallery.html" class="btn">🖼 Gallery</a>
+      </div>
+  </div>
+</section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="heading">
+        <h2 style="margin-top: 6rem; text-align: center; text-decoration: underline;">Services</h2>
+        <span>Our Services</span>
+    </div>
+    <div class="services-content">
+        <!-- Box 1 -->
+        <div class="services-box">
+            <i class='bx bx-code-alt' ></i>
+            <h3>Web Development</h3>
+            <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank">Learn More</a>
+        </div>
+        <!-- Box 2 -->
+        <div class="services-box">
+            <i class='bx bx-server' ></i>
+            <h3>Backend Development</h3>
+            <a href="https://en.wikipedia.org/wiki/Frontend_and_backend" target="_blank">Learn More</a>
+        </div>
+        
+
+        <div class="services-box">
+            <i class='bx bxl-wordpress' ></i>
+            <h3>Wordpress Developer</h3>
+            <a href="https://en.wikipedia.org/wiki/WordPress" target="_blank">Learn More</a>
+        </div>
+    </div>
+</section>
+<div class="contact-form">
+    <form action="https://formspree.io/f/xlevbvaj" method="POST">
+      <input type="text" name="Name" placeholder="Your Name" required />
+      <input
+        type="email"
+        name="Email"
+        id=""
+        placeholder="Your Email"
+        required
+      />
+      <input
+        type="subject"
+        name="Subject"
+        id=""
+        placeholder="Subject"
+        required
+      />
+      <textarea
+        name="Message"
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Write Message Here..."
+        required
+      ></textarea>
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LdxihAiAAAAAFTJ44etPIPCYN8X_J8LGNfSxfEa"
+      ></div>
+      <button class="contact-button">Hire Me</button>
+    </form>
+  </div>
+</section>
+<div class="copyright">
+  <p>
+    &reg;2022 Created By &copy;<a href="https://acharyanischal.com.np">
+      Nischal Acharya</a
+    >
+    | All Right Reserved by<span style="color: black">
+      &hearts;Nischal Acharya&hearts;</span
+    >
+  </p>
+</div>
+    <!-- cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+      document.addEventListener("mousemove", function (e) {
+        cursor.style.cssText = cursor2.style.cssText =
+          "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      });
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

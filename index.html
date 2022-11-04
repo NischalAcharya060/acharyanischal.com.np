@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nischal Acharya | Portfolio" />
+    <meta
+      name="keywords"
+      content="Nischal, Nischal Acharya, Acharya, Web Developer in nepal, Portfolio, best portfolio, responsive, responsive portfolio, best portfolio in nepal."
+    />
+    <meta name="author" content="Nischal Acharya" />
+    <meta name="theme-color" content="#FFFFFF,#000000" />
+    <title>Nischal Acharya | Portfolio</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/940b4ce52e.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6001804407427513"
+     crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <a href="index.html" class="logo"
+        ><span style="color: crimson; font-size: 1.61rem; font-weight: 600"
+          >Nischal</span
+        >
+        Acharya</a
+      >
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li>
+          <a href="index.html"><i class="fa fa-home"></i>Home</a>
+        </li>
+        <li>
+          <a href="about.html"><i class="fa fa-file-text-o"></i>About</a>
+        </li>
+        <li>
+          <a href="contact.html"><i class="fa fa-envelope"></i>Contact</a>
+        </li>
+        <div class="bx bx-moon" id="darkmode"></div>
+      </ul>
+    </header>
+    <!-- ?Home -->
+
+    <section class="home" id="home">
+      <div class="social">
+        <a href="https://github.com/GrdhRavan" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/nischal-acharya101/"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/Nischal.Acharya.58760/"
+          target="_blank"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/its_nischalacharya/" target="_blank"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://twitter.com/@Nischal79783380" target="_blank"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://linktr.ee/Nischalacharya" target="_blank"
+          ><i class="bx bx-log-in"></i
+        ></a>
+      </div>
+      <div class="home-img">
+        <img src="image/heropic.png" alt="pic" />
+      </div>
+      <div class="home-text">
+        <span>ヅ Hello, I'm</span>
+        <h1 style="font-family: 'Great Vibes', cursive">
+          <span
+            style="
+              font-size: 2em;
+              color: crimson;
+              font-family: 'Great Vibes', cursive;
+            "
+            >Nischal</span
+          >
+          Acharya
+        </h1>
+        <h2 class="typingtext">And I'm a <span class="typing"></span></h2>
+        <p>
+          Hello,I'm
+          <span style="color: crimson; font-size: 1em">Nischal Acharya</span
+          >,<br />
+          Front-End Developer & Back-End Developer<br> from Gauradaha-Jhapa,Nepal.
+        </p>
+        <a href="contact.html" class="btn">✉ Contact Me</a>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+    <script>
+      // typing text animation script
+      var typed = new Typed(".typing", {
+        strings: ["Front-End Developer", "Back-End Developer", "Word-Press Developer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true,
+      });
+    </script>
+    <!-- cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+      document.addEventListener("mousemove", function (e) {
+        cursor.style.cssText = cursor2.style.cssText =
+          "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nischal Acharya | Gallery" />
+    <meta
+      name="keywords"
+      content="Nischal, Nischal Acharya, Acharya, Web Developer in nepal, Portfolio, best portfolio, responsive, responsive portfolio, best portfolio in nepal."
+    />
+    <meta name="author" content="Nischal Acharya" />
+    <meta name="theme-color" content="#FFFFFF,#000000" />
+    <title>Gallery | Nischal Acharya</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+  </head>
+  <body style="background-color: #0f0c27">
+    <h1>
+      <span style="color: aqua">Nischal</span>
+      <span style="color: red">Gallery</span>
+    </h1>
+
+    <div class="gallery" id="gallery">
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p11.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p10.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p9.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p8.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p7.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p6.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p5.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p3.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p2.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content">
+          <img src="image/p1.jpg" alt="" />
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="content"><img src="image/profile.jpg" alt="" /></div>
+      </div>
+    </div>
+    <a href="about.html" class="btn-1">🔙</a>
+
+    <!-- cursor -->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+    <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+      document.addEventListener("mousemove", function (e) {
+        cursor.style.cssText = cursor2.style.cssText =
+          "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      });
+    </script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
